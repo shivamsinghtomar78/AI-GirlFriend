@@ -2,7 +2,6 @@ import { useState } from 'react'
 import { ChevronDown, Check } from 'lucide-react'
 import { useChatStore } from '@/store/chatStore'
 import { Button } from '@/components/ui/button'
-import { Badge } from '@/components/ui/badge'
 
 const modes = [
   { id: 'intimate_mode', name: 'Intimate', color: 'bg-rose-500', emoji: '💕' },

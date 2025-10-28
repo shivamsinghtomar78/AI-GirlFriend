@@ -3,9 +3,6 @@ import { Button } from '@/components/ui/button'
 import { Badge } from '@/components/ui/badge'
 import { Avatar, AvatarImage, AvatarFallback } from '@/components/ui/avatar'
 import { ModeSelector } from './ModeSelector'
-import { NameCustomizer } from './NameCustomizer'
-import { AvatarCustomizer } from './AvatarCustomizer'
-
 import { useChatStore } from '@/store/chatStore'
 
 interface ChatHeaderProps {

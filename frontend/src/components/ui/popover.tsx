@@ -1,11 +1,8 @@
 import * as React from "react"
-import { cn } from "@/utils/cn"
 
-let globalOpenId: string | null = null
 const listeners = new Set<(id: string | null) => void>()
 
 const setGlobalOpen = (id: string | null) => {
-  globalOpenId = id
   listeners.forEach(fn => fn(id))
 }
 
