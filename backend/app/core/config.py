@@ -7,13 +7,13 @@ class Settings(BaseSettings):
     debug: bool = True
     
     # OpenRouter Configuration
-    openrouter_api_key: str = "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"
+    openrouter_api_key: str = ""
     openrouter_base_url: str = "https://openrouter.ai/api/v1"
     openrouter_http_referer: str = "http://localhost:3000"
     openrouter_app_name: str = "AI Girlfriend (Development)"
     
     # Google Gemini Configuration
-    google_api_key: str = "AIzaSyBYKMqWiM0LHzHiplVwrWjCc56zXGCXd0g"
+    google_api_key: str = ""
     
     # Database Configuration
     database_url: str = "sqlite:///./data/luna_ai.db"
