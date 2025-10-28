@@ -140,19 +140,3 @@ uvicorn app.main:app --reload    # Start with auto-reload
 
 ### Database Management
 The SQLite database is automatically created when you first run the backend. Tables are created using SQLAlchemy models.
-
-## API Documentation
-
-Once the backend is running, visit http://localhost:8000/docs for interactive API documentation.
-
-## Contributing
-
-1. Fork the repository
-2. Create a feature branch
-3. Make your changes
-4. Test thoroughly
-5. Submit a pull request
-
-## License
-
-This project is for development and educational purposes.
